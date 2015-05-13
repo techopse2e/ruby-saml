@@ -67,7 +67,7 @@ module OneLogin
       # @raise [ValidationError] if soft == false and validation fails
       #
       def validate!
-        validate(false)
+        validate(true)
       end
 
       # @return [String] the NameID provided by the SAML response from the IdP.
